@@ -1,0 +1,153 @@
+body {
+	margin: 0px;
+	font-family: "Arial";
+	font-size: 15pt;
+	background-color: 
+}
+
+.navbar ul {
+	list-style-type: none;
+	display: block;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	left: -30px;
+	top: 9px
+}
+
+.nav-item a {
+	text-decoration: none;
+	color: black;
+	size: 12pt;
+	display: block;
+	padding: 10px;
+}
+
+
+#logo-id {
+	
+	height: 40px;
+	position: relative;
+	top: 9px;
+	right: -13px
+	
+}
+
+#marque {
+	display: block;
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	background-color: green
+	
+}
+
+
+#mrq-cover {
+	transform: rotate(-30deg);
+	animation: shake 1s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(deg); }
+  10% { transform: translate(-1px, -2px) rotate(-20deg); }
+  20% { transform: translate(-3px, 0px) rotate(-20deg); }
+  30% { transform: translate(3px, 2px) rotate(-20deg); }
+  40% { transform: translate(1px, -1px) rotate(-20eg); }
+  50% { transform: translate(-1px, 2px) rotate(-20deg); }
+  60% { transform: translate(-3px, 1px) rotate(-20deg); }
+  70% { transform: translate(3px, 1px) rotate(-20deg); }
+  80% { transform: translate(-1px, -1px) rotate(-20deg); }
+  90% { transform: translate(1px, 2px) rotate(-20deg); }
+  100% { transform: translate(1px, -2px) rotate(-20deg); }
+}
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.card{
+	background-color: 83b6ed;
+	width:100%;
+	height: 800px;
+	margin: 10px;
+	border-radius: 10px;
+	color: black;
+	padding: 15px;
+	text-align: cenetr;
+    font-size: 15pt	
+}
+
+.img {
+	height: 50%;
+	background-size: cover;
+	margin: 0px;
+	margin-bottom: -260px
+	
+	
+}
+
+#img-1 {
+	size: 440px;
+}
+
+#img-2 {
+	position: relative;
+	
+}
+
+.knop {
+	text-decoration: none;
+	color: white;
+	display: block;
+	background-color: black;
+	padding: 10px;
+	border-radius: 10px
+}
+
+.card:hover {
+	transform: scale(1.05);
+	transition: all 0.5s ease;
+}
+
+
+
+.fet-img {
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	
+	
+}
+
+#wp-btn {
+	position: relative;
+	
+}
+
+#wp-btn img:hover {
+	transform: scale(1.15);
+	transition: all 0.3s ease
+}
+
+#todii {
+	font-size: 15pt
+}
+
+.img-cont{
+	columns: 100px 1;
+	gap: 10 px;
+}
+
+.img-cont img{
+	width: 100%;
+	margin-bottom: 1rem;
+	border-radius: 0.7rem
+}
